@@ -11,7 +11,7 @@ import { waitForBackend } from "./api/system";
 import { isWebActionRequest, planWebAction, WebAction } from "./webActions";
 import { executeLocalAction, getLocalActionStatus, isLocalActionRequest, LocalAction, planLocalAction } from "./localActions";
 import { DEMO_MODE } from "./config/mode";
-import cyberpunkBackgroundVideo from "./assets/cyberpunk-background.mp4";
+import cyberpunkBackgroundVideo from "./assets/AOT_Peace.mp4";
 
 type Message = { author: "user" | "jarvis"; text: string };
 type Status = "idle" | "listening" | "thinking" | "speaking" | "error";
